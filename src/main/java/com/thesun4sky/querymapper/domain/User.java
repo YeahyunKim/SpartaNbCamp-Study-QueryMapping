@@ -17,6 +17,9 @@ package com.thesun4sky.querymapper.domain;
 
 import java.io.Serializable;
 
+
+// Serializable 상속받아야 객체를 만들어서 값을 집어 넣어줄 수 있다.
+// Serializable 한 객체, 직렬화가 가능한 객체를 생성
 public class User implements Serializable {
 
   private static final long serialVersionUID = 1L;
